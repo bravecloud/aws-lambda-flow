@@ -1,0 +1,32 @@
+{
+  "name": "@aws-lambda/flow",
+  "version": "0.0.2",
+  "description": "A module for simplifying development with aws lambda by providing a pattern for modularizing the pre-processing that typically takes place before core business logic is executed (e.g. initialization, authentication/authorization, http header injection...etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "coverage": "nyc ./node_modules/mocha/bin/mocha",
+    "cover-report": "nyc -r html ./node_modules/mocha/bin/mocha",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "./node_modules/eslint/bin/eslint.js ./"
+  },
+  "keywords": [
+    "aws lambda",
+    "lambda workflow",
+    "http lambda proxy",
+    "aws lambda middleware",
+    "aws lambda chain"
+  ],
+  "author": "bravecloud",
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "^3.0.4",
+    "eslint": "6.0.1",
+    "lodash": ">=4.17.13",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "@aws-lambda/http": "0.0.5"
+  }
+}
