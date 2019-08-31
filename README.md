@@ -1,3 +1,8 @@
+[![npm version](https://badge.fury.io/js/%40aws-lambda%2Fflow.svg)](https://badge.fury.io/js/%40aws-lambda%2Fflow)
+[![Build Status](https://travis-ci.org/bravecloud/aws-lambda-flow.svg?branch=master)](https://travis-ci.org/bravecloud/aws-lambda-flow)
+[![Coverage Status](https://coveralls.io/repos/github/bravecloud/aws-lambda-flow/badge.svg?branch=master)](https://coveralls.io/github/bravecloud/aws-lambda-flow?branch=master)
+
+
 # @aws-lambda/flow
 
 A module for simplifying development with aws lambda by providing a pattern for modularizing the pre-processing that typically takes place before core business logic is executed (e.g. initialization, authentication/authorization, http header injection...etc.)
