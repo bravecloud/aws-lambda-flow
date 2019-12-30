@@ -1,6 +1,6 @@
 {
   "name": "@aws-lambda/flow",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A module for simplifying development with aws lambda by providing a pattern for modularizing the pre-processing that typically takes place before core business logic is executed (e.g. initialization, authentication/authorization, http header injection...etc.)",
   "main": "index.js",
   "scripts": {
