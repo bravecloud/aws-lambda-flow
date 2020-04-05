@@ -1,0 +1,5 @@
+.nyc_output
+.eslintignore
+.eslintrc
+test
+.travis.yml

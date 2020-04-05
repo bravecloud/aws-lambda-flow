@@ -7,6 +7,16 @@
 
 A module for simplifying development with aws lambda by providing a pattern for modularizing the pre-processing that typically takes place before core business logic is executed (e.g. initialization, authentication/authorization, http header injection...etc.)
 
+## Installation and Usage
+
+Prerequisites: [Node.js](https://nodejs.org/) `>=6.0.0`, npm version 3+.
+
+You can install the http module using npm:
+
+```
+$ npm install @aws-lambda/flow --save
+```
+
 ### Basic Flow
 
 The following example shows a lambda flow that adds two handlers before executing the main business logic of the lambda function.  This illustrates how one can succinctly reuse common pre-tasks like loading a configuration or publishing a cloudwatch metric:
