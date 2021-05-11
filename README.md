@@ -9,7 +9,7 @@ A module for simplifying development with aws lambda by providing a pattern for 
 
 ## Installation and Usage
 
-Prerequisites: [Node.js](https://nodejs.org/) `>=6.0.0`, npm version 3+.
+Prerequisites: [Node.js](https://nodejs.org/) `>=8`, npm version 6+.
 
 You can install the http module using npm:
 
